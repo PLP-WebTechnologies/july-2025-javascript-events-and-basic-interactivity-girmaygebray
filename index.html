@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YoakinTech Solutions 🚀</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <h1>YoakinTech Solutions - Interactive Web Page</h1>
+    <p>Making learning interactive and fun with JavaScript ✨</p>
+  </header>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Event Handling</h2>
+    <button id="messageBtn">Click Me</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Light/Dark Mode Toggle</h2>
+    <button id="toggleMode">Toggle Theme</button>
+  </section>
+
+  <section>
+    <h2>Counter Game</h2>
+    <button id="incrementBtn">+1</button>
+    <button id="resetBtn">Reset</button>
+    <p>Score: <span id="counter">0</span></p>
+  </section>
+
+  <section>
+    <h2>FAQ</h2>
+    <div class="faq">
+      <h3 class="faq-question">What does YoakinTech do?</h3>
+      <p class="faq-answer">YoakinTech builds innovative digital solutions for learning and business 🚀.</p>
+    </div>
+    <div class="faq">
+      <h3 class="faq-question">Why use JavaScript?</h3>
+      <p class="faq-answer">Because it makes web pages dynamic, interactive, and fun ✨!</p>
+    </div>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Sign Up Form</h2>
+    <form id="signupForm">
+      <label>Name: <input type="text" id="name"></label><span class="error" id="nameError"></span><br>
+      <label>Email: <input type="text" id="email"></label><span class="error" id="emailError"></span><br>
+      <label>Password: <input type="password" id="password"></label><span class="error" id="passwordError"></span><br>
+      <button type="submit">Submit</button>
+    </form>
+    <p id="formSuccess"></p>
+  </section>
+
+  <!-- Link JS -->
+  <script src="script.js"></script>
+</body>
+</html>
